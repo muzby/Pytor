@@ -1,0 +1,13 @@
+configured: true
+control_port: 9051
+ip_url: http://ip-api.com/json
+ips_list:
+- 185.129.62.62
+ips_list_buffer: 10
+password: your_tor_pass
+proxies:
+  http: 127.0.0.1:8118
+  https: 127.0.0.1:8118
+  socks5: 127.0.0.1:9050
+socks_port: 9050
+tg_url: https://t.me/s/tor_bridges

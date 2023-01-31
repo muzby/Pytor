@@ -1,0 +1,5 @@
+loguru
+pydantic
+PyYAML
+requests
+stem
