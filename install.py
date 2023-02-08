@@ -14,10 +14,10 @@ class Installer:
 
     class Command(str, Enum):
         UPGRADE = 'apt update && apt upgrade -y'
-        INSTALL_TOR = 'apt install tor'
-        INSTALL_PRIVOXY = 'apt install privoxy'
-        INSTALL_OBFS4 = 'apt install obfs4proxy'
-        INSTALL_PIP = 'apt install python3-pip'
+        INSTALL_TOR = 'apt install tor -y'
+        INSTALL_PRIVOXY = 'apt install privoxy -y'
+        INSTALL_OBFS4 = 'apt install obfs4proxy -y'
+        INSTALL_PIP = 'apt install python3-pip -y'
         INSTALL_REQUIREMENTS = 'pip install -r requirements.txt'
 
     @staticmethod
